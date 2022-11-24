@@ -18,17 +18,23 @@ body{
     margin: 1em;
 }
 
+img{
+    width: 50vw;
+}
+
 #search{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    height: 70vh;
 }
 
 form{
     display: flex;
     flex-direction: column;
+    width: 50%;
 }
 
 input{
