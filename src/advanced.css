@@ -30,12 +30,71 @@ img {
 h1 {
   color: rgb(255, 56, 49);
   padding: 2.5% 2.5% 1.5% 2.5%;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 140%;
 }
 
 #line {
   border-bottom: 1px solid #ebebeb;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#search {
+  margin-top: 20px;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 1020px) {
+  form {
+    display: grid;
+    grid-template-columns: 20% 50%;
+  }
+}
+@media (max-width: 1019px) {
+  form {
+    display: grid;
+    grid-template-columns: 25% 55%;
+  }
+}
+#range {
+  display: flex;
+}
+
+p, h2 {
+  margin: 5px;
+}
+
+input {
+  margin: 5px;
+  padding: 4px;
+  border: 1px rgb(190, 190, 190) solid;
+}
+
+input[type=number] {
+  width: calc(50% - 20px);
+}
+
+input[type=submit] {
+  width: 30%;
+  margin-left: 70%;
+  margin-top: 15px;
+  padding: 0.7em;
+  background: rgb(0, 134, 248);
+  grid-column-start: 2;
+  align-self: center;
+  color: white;
+  border-radius: 2px;
+  border-width: 0;
+}
+input[type=submit]:hover {
+  background: rgb(5, 112, 206);
+  color: white;
 }
 
 /*# sourceMappingURL=advanced.css.map */
