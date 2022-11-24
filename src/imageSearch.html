@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
-        <link href="search.css" rel="stylesheet">
+        <title>Image Search</title>
+        <link href="../search.css" rel="stylesheet">
     </head>
     <body>
         <div class="container">
             <div class="box">
-                <a href="src/imageSearch.html">Images</a>
+                <a href="../index.html">Google</a>
             </div>
             <div class="box">
                 <a href="advanced.html">Advanced</a>
@@ -15,10 +15,11 @@
         </div>
 
         <div id="search">
-            <img src="src/google.png" alt="Google">
+            <img src="imageSearch.png" alt="Google">
             <form action="https://www.google.com/search">
                 <input type="text" name="q">
-                <input type="submit" value="Google Search">
+                <input type="hidden" name="tbm" value="isch">
+                <input type="submit" value="Image Search">
             </form>
         </div>
     </body>

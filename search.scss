@@ -56,11 +56,11 @@ input{
     &[type="submit"]{
         width: 30%;
         padding: 0.7em;
-        background: #0086f8;
+        background: #e0e0e0;
         align-self: center;
-        color: white;
+        color: rgb(100, 100, 100);
         border: {
-            radius:2em;
+            radius:2px;
             width: 0;
         }
         &:hover{
