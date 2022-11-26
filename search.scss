@@ -70,6 +70,11 @@ input{
     }
 }
 
+#buttons{
+    display: flex;
+    justify-content: center;
+}
+
 @media(min-width:1630px){
     img{
         width: 30vw;

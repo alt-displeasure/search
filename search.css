@@ -62,8 +62,13 @@ input[type=submit] {
   border-width: 0;
 }
 input[type=submit]:hover {
-  background: #2d99f7;
-  color: white;
+  background: #cacaca;
+  color: rgb(51, 51, 51);
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
 }
 
 @media (min-width: 1630px) {
